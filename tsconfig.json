@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
@@ -8,5 +8,14 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": false
-  }
+  },
+  "files": [
+    "app-layout.component.ts",
+    "app.component.ts",
+    "app.module.ts",
+    "event-form.component.ts",
+    "event.service.ts",
+    "index.ts",
+    "rxjs-operators.ts"
+  ]
 }
