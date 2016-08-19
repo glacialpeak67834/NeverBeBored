@@ -17,7 +17,7 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'app',
             providers: [event_service_1.EventService],
-            template: "<app-layout></app-layout>"
+            template: "<event-form></event-form>\n             <app-layout></app-layout>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

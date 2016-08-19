@@ -1,7 +1,7 @@
 import { Component, OnInit }    from '@angular/core';
-import { NgFor }                from '@angular/common';
-import { Event }                from './datatypes/event';
-import { EventService }         from './event.service';
+import { NgFor }        from '@angular/common';
+import { Event }        from './datatypes/event';
+import { EventService } from './event.service';
 
 @Component({
   selector: 'app-layout',
@@ -11,12 +11,11 @@ import { EventService }         from './event.service';
       <div class="events">
         <div class="row">
           <div class="col-md-4" id="event" *ngFor="let event of events | slice:0:12; let i = index">
-          <a target="_new" href="{{event.link}}">
             <div class="details">
               <h3>{{ event.title }}</h3>
+              <a target="_new" href="{{event.link}}">{{ event.link }}</a>
               <p>{{ event.location }}</p>
             </div>
-          </a>
           </div>
         </div>
       </div>

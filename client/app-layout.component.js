@@ -23,7 +23,7 @@ var AppLayoutComponent = (function () {
     AppLayoutComponent = __decorate([
         core_1.Component({
             selector: 'app-layout',
-            template: "<div class=\"col-md-12\" id=\"header\"><h1>BORED<span class=\"question\">?</span></h1></div>\n    <div class=\"container\">\n      <div class=\"events\">\n        <div class=\"row\">\n          <div class=\"col-md-4\" id=\"event\" *ngFor=\"let event of events | slice:0:12; let i = index\">\n          <a target=\"_new\" href=\"{{event.link}}\">\n            <div class=\"details\">\n              <h3>{{ event.title }}</h3>\n              <p>{{ event.location }}</p>\n            </div>\n          </a>\n          </div>\n        </div>\n      </div>\n   </div>",
+            template: "<div class=\"col-md-12\" id=\"header\"><h1>BORED<span class=\"question\">?</span></h1></div>\n    <div class=\"container\">\n      <div class=\"events\">\n        <div class=\"row\">\n          <div class=\"col-md-4\" id=\"event\" *ngFor=\"let event of events | slice:0:12; let i = index\">\n            <div class=\"details\">\n              <h3>{{ event.title }}</h3>\n              <a target=\"_new\" href=\"{{event.link}}\">{{ event.link }}</a>\n              <p>{{ event.location }}</p>\n            </div>\n          </div>\n        </div>\n      </div>\n   </div>",
             directives: [common_1.NgFor]
         }), 
         __metadata('design:paramtypes', [event_service_1.EventService])
