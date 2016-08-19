@@ -5,8 +5,7 @@ import { EventService }  from './event.service';
 @Component({
   selector: 'app',
   providers: [ EventService ],
-  template: `<event-form></event-form>
-             <app-layout></app-layout>`
+  template: `<app-layout></app-layout>`
 })
 
 export class AppComponent { }

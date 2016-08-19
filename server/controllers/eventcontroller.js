@@ -1,6 +1,5 @@
 var Event = require('../models/Event.js');
 
-
 const saveEvent = (createdEvent) => {
   var event = new Event({
     title: createdEvent.title,
