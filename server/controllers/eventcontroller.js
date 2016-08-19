@@ -1,5 +1,4 @@
-var Event = require('./models/Event.js');
-
+var Event = require('../models/Event.js');
 
 const saveEvent = (createdEvent) => {
   var event = new Event({
