@@ -1,0 +1,127 @@
+h1 {
+  color: #111111;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  background-color: white;
+  min-height: 1em;
+  font-size: 10em; 
+  font-weight: bold;
+  letter-spacing: -1px; 
+  line-height: 1em; 
+  text-align: center;
+  border-radius: 1px;
+  z-index: 100;
+  position: absolute;
+  -webkit-box-shadow: 0 10px 10px black;
+  -moz-box-shadow: 0 10px 10px black;
+  box-shadow: 0 10px 10px black;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.loading {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  position: relative;
+}
+
+.question {
+  color: transparent;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #00506A;
+  text-shadow: 0px 2px 3px rgba(255,255,255,0.2);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+.container {
+  padding: 0;
+  margin-top: 15em;
+}
+
+.events {
+  padding-left: 1.6em;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+#event {
+  text-decoration: none !important;
+  min-height: 20em;
+  max-width: 20em;
+  color: black !important; 
+  background-color: #ffffff;
+  margin: 4;
+  padding: 1;
+  -webkit-box-shadow: -10px 8px 15px -4px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow:    -10px 8px 15px -4px rgba(0, 0, 0, 0.38);
+  box-shadow:         -10px 8px 15px -4px rgba(0, 0, 0, 0.38);
+  -webkit-transition:  All 1s ease-in-out;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);  
+  position: relative;
+  overflow: hidden;
+}
+
+#event:hover {
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.2);
+  transition: all 200ms ease-in;
+  transform: scale(1.2);
+}
+
+h3 {
+  padding-top: 3em;
+  word-wrap: break-word;
+}
+
+a {
+  word-wrap: break-word;
+  text-decoration: none !important;
+  color: inherit;
+}
+
+a:link {
+  word-wrap: break-word;
+  text-decoration: none !important;
+  color: inherit;
+}
+
+body {
+  text-align: center;
+  color: white;
+  background-color: #00506A;
+}
+
+#header {
+  padding-left: 30%;  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+}
+
+.form-group {
+  max-width: 10em;
+  max-height: 10em;
+}
